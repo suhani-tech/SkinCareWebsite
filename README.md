@@ -1,7 +1,6 @@
 # SkinCareWebsite
 Skin Care Website Project.
 
-This is my first attempt at web development: a personal portfolio website. It features an about me section, a showcase of my projects, and a contact form, built using HTML, CSS, and JavaScript.
-
+This is my second attempt at web development: A Skin Care Website. A beginner's web development project focused on skin care. This website offers educational content on skin care routines, product recommendations, and tips for maintaining healthy skin. Developed with HTML, CSS, and JavaScript.
 
 The main code starts in skin.html file.

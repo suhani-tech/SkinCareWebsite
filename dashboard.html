@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skin care</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dashboard.css">
+
+<body>
+    <header>Hello, Welcome to our page.</header>
+<div class="container-main">
+<div class="container2">
+    <h1>Choose Your Skin Type</h1>
+        <label for="Skin Type">
+            Skin Type:
+        </label>
+        <select id="skin-type" name="skin-type" required>
+            <option value="Oily">Oily</option>
+            <option value="Dry">Dry</option>
+            <option value="Normal">Normal</option>
+            <option value="Sensitive">Sensitive</option>
+        </select>
+
+    <button onclick="printSkinType()">Check</button>
+
+    <div id="output"></div>
+</div>
+
+<div class="container3">
+    <h1>Here, is your skin-care routine.</h1>   
+
+    <div id="routine-output"></div>
+    </div>
+</div>
+<div id="frame">
+<div id="iframe-container1">
+    <iframe src="to.html" frameborder="0"></iframe>
+</div>
+<div id="iframe-container2">
+    <iframe src="stop.html" frameborder="0"></iframe>
+</div>
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

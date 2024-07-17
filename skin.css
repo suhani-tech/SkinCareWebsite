@@ -1,0 +1,309 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: rgb(20, 25, 25);
+    margin: 0px;
+    padding: 0px;
+    background: url('skinwallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    padding: 10px;
+  text-align: center;
+  background: #e79f4c;
+    
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 34px;
+    display: inline;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+    background-color: rgb(255, 212, 159);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    
+}
+
+.navbar li a {
+    color: rgb(27, 98, 112);
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+#ContactUs {
+    
+    background-color: #37c9cb;
+    /* padding: 2% 2% 2% 2%; */
+    border-radius: 20px;
+    margin-bottom: 40%;
+    
+  }
+
+  #ContactUs a{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+section {
+    padding: 100px 20px;
+    background-color: #fab35b;
+    border-radius: 20px;
+    margin-bottom: 5px ;
+  }
+
+ .container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.container1 {
+    border: 2px solid black;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container1 h1 {
+    text-align: center;
+}
+
+.container1 button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(246, 212, 168);
+    font-size: larger;
+}
+label{
+    font-size:x-large;
+}
+#skin-type
+{
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size:large;
+    font-family: cursive;
+}
+
+.login-container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 45%;
+    border-radius: 20px;
+    /* background-color: #fab35b; */
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container .form-group {
+    margin-bottom: 15px;
+}
+
+.login-container .form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-container .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+
+body::after {
+    content: "";
+    display: block;
+    background: url('skinbg.png') no-repeat center center fixed;
+    /* background-size: cover; */
+    background-size: 1500px 700px;
+    position: absolute;
+    top: 100px; /* Same as the header height */
+    left: 0;
+    width: 100%;
+    height: calc(100vh); /* Full height minus the header height */
+    z-index: -1; /* Ensure it is behind the content */
+}
+
+#oily-skin{
+ font-size: larger;
+}
+#oily-skin p{
+    text-align: left;
+   }
+#oily-skin img{
+    float: right;
+    width: 25%;
+    height:40%;
+    border: solid 8px #26816E;
+    border-radius: 2000px;
+    box-shadow: 5px 15px 30px;
+   }
+
+
+#dry-skin{
+    font-size: larger;
+}
+#dry-skin p{
+    text-align: left;
+}
+#dry-skin img{
+    float: right;
+    width: 25%;
+height:40%;
+    border: solid 8px #26816E;
+    border-radius: 2000px;
+    box-shadow: 5px 15px 30px;
+}
+
+
+#normal-skin{
+    font-size: larger;
+}
+
+#normal-skin p{
+    text-align: left;
+}
+
+#normal-skin img{
+    float: right;
+    width: 25%;
+height:40%;
+    border: solid 8px #26816E;
+    border-radius: 2000px;
+    box-shadow: 5px 15px 30px;
+}
+
+
+
+#sensitive-skin{
+    font-size: larger;
+}
+
+#sensitive-skin p{
+    text-align: left;
+}
+
+#sensitive-skin img{
+    float: right;
+    width: 25%;
+height:40%;
+    border: solid 8px #26816E;
+    border-radius: 2000px;
+    box-shadow: 5px 15px 30px;
+}
+
+#aboutus {
+    background-color: #26816E;
+    color: white;
+    height: 200vh;
+    width: auto;
+  }
+  #aboutus h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50pt;
+    font-weight: bold;
+    text-align: left;
+    margin: 50px;
+  }
+
+  #aboutus p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: auto;
+    text-align: left;
+    font-size:20pt;
+    margin: 50px;
+    margin-right: 500px;
+  }
+  #aboutus ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: left;
+    font-size: 20pt;
+  }
+  
+  #aboutus img{
+    float: right;
+    width: 18%;
+    border: solid 8px #26816E;
+    border-radius: 2000px;
+    box-shadow: 5px 15px 30px;
+    
+  }

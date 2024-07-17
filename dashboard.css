@@ -1,0 +1,96 @@
+body{
+    background-image: url("skinwallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    margin: 0px;
+    padding: 10px;
+    font-size: 50pt;
+    /* background-color: rgb(225, 65, 16); */
+    /* background-image: url("background.jpg"); */
+}
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.container2 {
+    border: 2px solid black;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container2 h1 {
+    text-align: center;
+}
+
+.container2 button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(255, 219, 158);
+    font-size: larger;
+}
+label{
+    font-size:x-large;
+}
+#skin-type
+{
+    background-color: rgb(37, 226, 217);
+    border-radius: 5px;
+    font-size:large;
+    font-family: cursive;
+}
+
+.container3 {
+    border: 2px solid black;
+    padding: 20px;
+    width: 45%;
+    border-radius: 20px;
+    /* background-color: #fab35b; */
+}
+
+.container3 h1 {
+    text-align: center;
+}
+
+.container3 button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+#frame
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+#iframe-container1 {
+    width: 1000px; /* Set width as needed */
+    height: 800px; /* Set height as needed */
+}
+
+/* Optional: Style the iframe itself */
+#iframe-container1 iframe {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px; /* Optional: Remove border */
+}
+
+#iframe-container2 {
+    width: 800px; /* Set width as needed */
+    height: 600px; /* Set height as needed */
+}
+
+/* Optional: Style the iframe itself */
+#iframe-container2 iframe {
+    width: 80%;
+    height: 60%;
+    border-radius: 20px; /* Optional: Remove border */
+}

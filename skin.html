@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skin care</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="skin.css">
+
+
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="skinbloomm.png" alt="logo">
+            <div>Sqin Bloom</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div id="navbar" class="mid">
+            <ul class="navbar">
+                <li><a class="active smoothScroll" href="#container-wrapper">Home</a></li>
+                <li><a class="active smoothScroll" href="#aboutus">About Us</a></li>
+                <li><a class="active smoothScroll" href="#login-container">Skin Care Routines-Login</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <span id="ContactUs">
+        
+                <a  class="smoothScroll"  href="#Contact"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor bi bi-person-lines-fill" viewBox="0 0 16 16">Contact Us
+                  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                 </svg></a><a  class="smoothScroll"  href="#Contact">&nbsp; Contact Us</a> 
+              </span>
+              
+        </div>
+    </header>
+    
+    <div id="container-wrapper" class="container-wrapper">
+    <div class="container1">
+        <h1>Choose Your Skin Type</h1>
+        <label for="Skin Type">
+            Skin Type:
+        </label>
+        <select id="skin-type" name="skin-type" required>
+            <option value="Oily">Oily</option>
+            <option value="Dry">Dry</option>
+            <option value="Normal">Normal</option>
+            <option value="Sensitive">Sensitive</option>
+        </select>
+    
+        <button onclick="printSkinType()">Check</button>
+
+    <div id="output"></div>
+</div>
+    <div id="login-container" class="login-container">
+        <h2>Create Account / Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div id="message"></div>
+    </div>
+</div>
+
+    <section id="oily-skin">
+        
+        <center>
+        <h2>Oily skin</h2><img class="img-responsive" src="oily skin.png" alt="Myself">
+        <p>Oily skin produces an excess of sebum that causes the skin to appear shiny and feel greasy—especially throughout the T-zone (forehead, nose, and chin). People with oily skin may tend to have less wrinkles, according to the American Academy of Dermatology (AAD),2 but they may also be more prone to enlarged pores, acne blemishes, blackheads, and whiteheads.
+
+            Keep in mind that just because oily skin produces more natural oils, this doesn’t mean that it requires any less moisture than other skin types. Supporting oily skin comes down to choosing the right products that nourish and hydrate, without clogging your pores or triggering breakouts. The ideal oily skin routine should feature a gentle, foaming cleanser that effectively removes dirt, excess oil, and other impurities. It should also include a lightweight, oil-free, and non-comedogenic moisturizer that provides your oily skin with the essential hydration it needs.
+            </p>
+      </center>
+      </section>
+    
+      <section id="dry-skin">
+        
+        <center>
+        <h2>Dry skin</h2><img class="img-responsive" src="dry.png" alt="Myself">
+        <p>Dry skin generally produces less natural oils than other types of skin. This may cause it to appear dull and become rough, flaky, or even scaly. It often feels tight or less elastic, noticeably dehydrated, and may be prone to showing more visible fine lines. In addition, it may become itchy or irritated.
+
+            A skincare routine for dry skin should include gentle, soothing, and hydrating ingredients that help maintain the skin’s protective moisture barrier—such as ceramides. For dry skin types, the Mayo Clinic recommends avoiding excessively long, hot showers, moisturizing multiple times per day, and opting for skincare products that are fragrance-free, non-comedogenic, and alcohol-free.
+            
+            </p>
+      </center>
+      </section>
+      <section id="normal-skin">
+        
+        <center>
+        <h2>Normal skin</h2><img class="img-responsive" src="normal.png" alt="Myself">
+        <p>Normal skin is balanced—feeling neither too dry nor too oily. It is not prone to breakouts, flakiness, or feeling greasy or tight. People with normal skin typically have pores that are small, a smooth skin texture, and are less prone to sensitivity or blemishes. However, despite the fact that normal skin doesn’t have any specific issues or concerns, it still requires proper skincare to look and feel its best. The ideal normal skin routine helps maintain your skin’s hydration by locking in moisture and supporting your skin’s protective barrier.
+            </p>
+      </center>
+      </section>
+      <section id="sensitive-skin">
+        
+        <center>
+        <h2>Sensitive skin</h2> <img class="img-responsive" src="sensitive.jpg" alt="Myself">
+        <p>Sensitive skin is often referred to as a skin type, but it’s possible to have oily sensitive skin, dry sensitive skin, or normal sensitive skin. Regardless of which type of skin you have, if you have sensitive skin, it may appear red and feel like it's burning, itching, or dry. These symptoms may be related to having skin that is more vulnerable to external irritants and may be triggered by certain ingredients—like dyes or fragrance—as well as environmental factors.
+
+            If you have sensitive skin, you may be able to determine what triggers your sensitivity and avoid cleansers, moisturizers, or other products containing those specific ingredients. You can also alter your environment to reduce your exposure to triggering agents.
+            
+            </p>
+      </center>
+      </section>      
+    </section>
+    
+    <section id="aboutus">
+        <div>
+          <h2>About Us</h2>
+          <img class="img-responsive" src="download.jpg" alt="Myself">
+        <center>
+        <p><b>Name: Name 1</b><br>
+
+            <b>Title:</b Certified Skincare Specialist and Beauty Consultant<br>
+            
+            <b> Background:</b>
+            I a certified skincare specialist with a decade of experience in the beauty industry. I earned a certification from the International Dermal Institute and has since worked with top skincare brands, including Dermalogica and La Roche-Posay. I am passionate about helping clients achieve their best skin through education and personalized skincare plans.
+            <br>
+            <b>Expertise:</b>
+            <ol>
+            <li>Daily skincare routines</li>
+            <li>Product ingredient analysis</li>
+            <li>Hydration and moisturizing strategies</li>
+            <li>Skincare for diverse skin tones</li>
+        </ol>
+    </p>
+      <br>
+      <br>
+        <img class="img-responsive" src="download2.jpg" alt="Myself">
+        
+        <p><b>Name: Name 2</b><br>
+
+            <b>Title: Dermatologist and Skincare Expert</b><br>
+            
+            <b>Background:</b>
+            I a board-certified dermatologist with over 15 years of experience in clinical dermatology and cosmetic skincare. I holds a medical degree from Harvard Medical School and completed her dermatology residency at Stanford University. I renowned for my comprehensive approach to skincare, blending medical treatments with personalized skincare routines to achieve optimal results for her clients.
+            <br>
+            <b>Expertise:</b>
+            <ol>
+            <li>Acne treatment and prevention</li>
+            <li>Anti-aging skincare</li>
+            <li>Sensitive skin management</li>
+            <li>Customized skincare regimens</li>
+        </ol></p>
+        <br>
+        <br>
+        <br>
+      </center>      
+      </div>
+      </section>
+    
+      <center>
+      <footer>
+        <div id="Contact">
+        <p>&copy; Sqin Blooms</p>
+        
+        <p>Name 1: Ph No: +91 98XXXXX212<br> Email ID: webdev.xyz123@gamil.com</p>
+        <p>Name 2: Ph No: +91 98XXXXX456<br> Email ID: webdev.xyz123@gamil.com</p>
+    
+        </div>
+      </footer>
+    </center>
+
+    <script src="skin.js"></script>
+</body>
+</html>

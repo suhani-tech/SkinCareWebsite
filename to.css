@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(7, 49, 49);
+    margin-right: 11%;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.inputs input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid rgb(6, 145, 145);
+    border-radius: 10px;
+    outline: none;
+    font-size: 19px;
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+button:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+  }
+  
+.text {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.text div {
+    margin-bottom: 20px;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+}
+ol {
+    list-style-type: style text;
+    padding: 0;
+    border: 0px solid #ddd;
+  }
+  
+  ol li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  ol li:last-child {
+    border-bottom: none
+  }
+  /* ol > li {
+    align-content: center;
+    display: flex;
+    margin: 5px 0;
+    padding-left: 1em;
+    text-indent: -1em;
+  } */
+
+.text ol{
+    position:relative;
+    background-color: rgb(38, 142, 142);
+    border-inline-start-width: 30px;
+    border-inline-start-color: rgb(116, 148, 200);
+    border-radius:10px;
+    color: white;
+    font-size:19px;
+    padding: 0px;
+    text-align: left;
+}
+
+.text ol i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+#daySelect
+{
+    height:30px;
+    border-radius:10px;
+    margin: 5px 5px;
+}
